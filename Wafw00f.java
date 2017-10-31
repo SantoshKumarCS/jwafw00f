@@ -80,7 +80,6 @@ public class Wafw00f
 						if(input.toLowerCase().startsWith("isit"))
 						{
 							String wafs=input.substring(5);
-							//System.out.println(wafs);
 							isitwaf=wafs;
 							route=2;
 						}
@@ -727,7 +726,6 @@ class Jwafw00f implements Runnable
 					java.net.CookieStore rawCookieStore = ((java.net.CookieManager) CookieHandler.getDefault()).getCookieStore();
 
 				*/	
-				// info(testcookie);
 				cookies = cs.get(url.toURI());
 				if(cookies==null || cookies.isEmpty())
 				{	
